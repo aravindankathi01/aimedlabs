@@ -7,4 +7,8 @@ export const Heroimage = styled.img`
   height:500px;
   height:50%
   flex-shrink: 0;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    width:80%
+  }
 `;

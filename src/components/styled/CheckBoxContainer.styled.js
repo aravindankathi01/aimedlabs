@@ -8,4 +8,5 @@ export const CheckboxContainer = styled.div`
   font-weight: 400;
   line-height: normal;
   margin: 5px;
+  width: 98.5%;
 `;

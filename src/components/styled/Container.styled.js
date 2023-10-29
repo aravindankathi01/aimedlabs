@@ -7,6 +7,9 @@ export const Container = styled.div`
   align-items: center;
   gap: 100.781px;
   width: 100vw;
-  height: 100vh;
   box-sizing: border-box;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 5px;
+  }
 `;

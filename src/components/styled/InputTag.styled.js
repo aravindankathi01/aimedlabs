@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const InputContainer = styled.div`
   text-align: start;
-
+  width: 100%;
   input {
     border-radius: 8px;
     border: 1px solid rgba(4, 7, 47, 0.4);
     height: 56px;
-    width: 600px;
+    width: 100%;
     padding: 10px;
     margin: 10px auto;
     box-sizing: border-box;
